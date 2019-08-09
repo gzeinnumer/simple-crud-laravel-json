@@ -23,8 +23,9 @@ Route::post('/data','DataController@store');
 Route::put('/data/{id}','DataController@update');
 Route::delete('/data/{id}','DataController@destroy');
 //cara panngil
-//DELETE    http://127.0.0.1:8000/api/data/1
-//PUT       http://127.0.0.1:8000/api/data/1
-//POST      http://127.0.0.1:8000/api/data
+//DELETE    http://127.0.0.1:8000/api/data/1 sertakan id pada url
+//PUT       http://127.0.0.1:8000/api/data/1 sertakan id pada url
+//POST      http://127.0.0.1:8000/api/data jangan lupa isi paramnya dengan ->nama dan ->no_telepon
 //GET       http://127.0.0.1:8000/api/data
 //karna kita memakai api.php jadi kita sertakan api di urlnya
+git
