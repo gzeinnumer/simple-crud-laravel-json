@@ -83,7 +83,7 @@ class DataController extends Controller {
 }
 ```
 
-Controller With TryCatch [DataController_new.php](https://github.com/gzeinnumer/simple-crud-laravel-json/blob/master/app/Http/Controllers/DataController_new.php)
+Controller With TryCatch [DataController_new.php](https://github.com/gzeinnumer/simple-crud-laravel-json/blob/master/app/Http/Controllers/DataController_new.php) or [DataController_new_2.php](https://github.com/gzeinnumer/simple-crud-laravel-json/blob/master/app/Http/Controllers/DataController_new_2.php)
 
 ---
 
