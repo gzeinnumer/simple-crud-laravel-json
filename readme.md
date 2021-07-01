@@ -1,5 +1,7 @@
 # simple-crud-laravel-json
 
+#### app\Models\Data.php
+
 ```php
 php artisan make:model Data
 ```
@@ -16,6 +18,12 @@ class Data extends Model{
 }
 ```
 
+Controller With TryCatch [Data_new.php](https://github.com/gzeinnumer/simple-crud-laravel-json/blob/master/app/Models/Data_new.php)
+
+---
+
+#### app\Http\Controllers\DataController.php
+
 ```php
 php artisan make:controller DataController
 ```
@@ -25,11 +33,11 @@ php artisan make:controller DataController
 
 namespace App\Http\Controllers;
 
-use App\Data;
+use App\Models\Data;
 use Illuminate\Http\Request;
 
-class DataController extends Controller
-{
+class DataController extends Controller {
+
     public function index(){
         return Data::all();
     }
@@ -74,6 +82,12 @@ class DataController extends Controller
     //karna kita membuat api, maka yang kita set adalah api.php
 }
 ```
+
+Controller With TryCatch [DataController_new.php](https://github.com/gzeinnumer/simple-crud-laravel-json/blob/master/app/Http/Controllers/DataController_new.php)
+
+---
+
+#### routes\api.php
 
 ```php
 <?php
