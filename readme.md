@@ -18,7 +18,7 @@ class Data extends Model{
 }
 ```
 
-Controller With TryCatch [Data_new.php](https://github.com/gzeinnumer/simple-crud-laravel-json/blob/master/app/Models/Data_new.php)
+Model With Constants [Data_new.php](https://github.com/gzeinnumer/simple-crud-laravel-json/blob/master/app/Models/Data_new.php)
 
 ---
 
@@ -118,4 +118,5 @@ php artisan serve --port=8081
 ---
 
 ```
-Copyrigh
+Copyright 2021 M. Fadli Zein
+```
