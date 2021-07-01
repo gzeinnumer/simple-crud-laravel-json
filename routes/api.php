@@ -28,4 +28,3 @@ Route::delete('/data/{id}','DataController@destroy');
 //POST      http://127.0.0.1:8000/api/data jangan lupa isi paramnya dengan ->nama dan ->no_telepon
 //GET       http://127.0.0.1:8000/api/data
 //karna kita memakai api.php jadi kita sertakan api di urlnya
-git
