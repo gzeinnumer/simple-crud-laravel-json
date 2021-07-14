@@ -115,6 +115,11 @@ Route::delete('/data/{id}','DataController@destroy');
 php artisan serve --port=8081
 ```
 
+```php
+composer update
+php artisan key:generate
+```
+
 ---
 
 ```
